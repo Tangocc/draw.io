@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T01:23:56.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.6.2" etag="CeeieNmyWYXgsVaSCwGC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T01:52:19.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hQJkHo2oyLNwRrYPB5s1" version="21.6.2" type="github">
   <diagram name="第 1 页" id="CZVi-19H7xxmo7yZPRQK">
-    <mxGraphModel>
+    <mxGraphModel dx="798" dy="1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="we-ZiWifVndw6ZLPSWFf-1" value="沟通" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="510" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="we-ZiWifVndw6ZLPSWFf-3" value="&lt;h1&gt;是什么&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 沟通本质是信息双向传递：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;沟通强调的是双向，沟通的效果好坏评判标准应是过程，而不是结果。沟通过程要平衡双方的需求，&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 说服则是单向信息输出，在乎的是结果，且是在预知的结果的前提下进行。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 世界上两件难事：一个是将别人的钱财装进自己的口袋，一个是将自己的思想装进别人的脑袋。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 沟通的形式：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;面对面：传递的是内容+情绪+表情+氛围&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;电话：内容+情绪&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;书面：内容&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 沟通对象&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;自我：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;亲人：父母(向上)、子女（向下）、爱人（横向）&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;同事：上级、上上级、平级、下级&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;朋友：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;陌生人：&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" width="790" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="we-ZiWifVndw6ZLPSWFf-4" value="&lt;h1&gt;为什么&lt;/h1&gt;&lt;p&gt;1. 沟通的目标&lt;/p&gt;&lt;p&gt;2. 沟通的效果&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="470" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="we-ZiWifVndw6ZLPSWFf-5" value="&lt;h1&gt;原则&lt;/h1&gt;&lt;p&gt;1、尊重、平等基础之上&lt;/p&gt;&lt;p&gt;2、拒绝命令式沟通&lt;/p&gt;&lt;p&gt;3、描述事实，而不是观点(情绪+感受)&lt;/p&gt;&lt;p&gt;4、不要贴标签&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="680" width="540" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="we-ZiWifVndw6ZLPSWFf-6" value="&lt;h1&gt;技巧&lt;/h1&gt;&lt;p&gt;1、内容编排&lt;/p&gt;&lt;p&gt;2、巧妙利用表情&lt;/p&gt;&lt;p&gt;3、营造氛围&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="890" width="540" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
