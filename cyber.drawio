@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.8.2">
   <diagram name="第 1 页" id="YaMc3kc2zuUj5DlFbjir">
-    <mxGraphModel>
+    <mxGraphModel dx="1152" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-105" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="400" width="850" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-1" value="一级图库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-2" value="二级图库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-3" value="三级图库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-6" value="积分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="538" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-7" value="积分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="538" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-8" value="亲密度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-9" value="积分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="538" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-10" value="亲密度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-11" value="订阅" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="585" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-12" value="试玩核心产品逻辑：通过限次解锁高等级功能，吸引用户，并引导用户&quot;升级&quot;（充积分、刷亲密度、购买订阅）&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;实现方案：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;方案一：免积分(即不扣积分方式)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;strike&gt;1. 每个/所有 IP前N次聊天免费(免积分+免亲密度+免订阅)&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;2. 每个&lt;strike&gt;/所有&lt;/strike&gt; IP前N个亲密度值聊天免费(免积分+免亲密度+免订阅)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;弊端：由于不扣减积分，因此没法限制&lt;font color=&quot;#ff0000&quot;&gt;最后一次“越权”&lt;/font&gt;访问高级别图库(比如免费亲密值还剩1，但是还是可以请求一次三级图库)&lt;/div&gt;&lt;div&gt;优点： 真正实现&lt;font color=&quot;#ff0000&quot;&gt;无门槛&lt;/font&gt;试玩&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;方案二：不免积分(扣积分)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;strike&gt;1. 每个/所有 IP前N次聊天免费(免亲密度+免订阅)&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;2. 每个&lt;strike&gt;/所有&lt;/strike&gt; IP前N亲密度值聊天免费(免亲密度+免订阅)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;弊端：存在用户满足亲密度+满足订阅，但是&lt;font color=&quot;#ff0000&quot;&gt;积分不满足&lt;/font&gt;情况，此时用户仍然无法体验三级图库，需购买积分&lt;/div&gt;&lt;div&gt;优点：变相 实现所有IP前N亲密度值聊天免费的逻辑(赠送的免费积分只体验IP1，再体验IP2时可能积分不足)，&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="115" width="690" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-100" value="条件(门槛)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="548" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-101" value="1.积分满足&lt;div&gt;&lt;strike&gt;2. 积分不满足&lt;/strike&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="610" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-102" value="&lt;strike&gt;1. 积分不满足&amp;nbsp; +&amp;nbsp; 亲密度不满足&lt;/strike&gt;&lt;div&gt;&lt;strike&gt;2. 积分不满足&amp;nbsp; +&amp;nbsp; 亲密度满足&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;3.积分满足&amp;nbsp; &amp;nbsp; &amp;nbsp; +&amp;nbsp; 亲密度不满足&lt;/div&gt;&lt;div&gt;4. 积分满足&amp;nbsp; &amp;nbsp; &amp;nbsp;+&amp;nbsp; 亲密度满足&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="610" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-103" value="&lt;strike&gt;1. 积分不满足&amp;nbsp; +&amp;nbsp; 亲密度不满足&amp;nbsp; &amp;nbsp;+订阅不满足&lt;/strike&gt;&lt;div&gt;&lt;strike&gt;2. 积分不满足&amp;nbsp; +&amp;nbsp; 亲密度不满足&amp;nbsp; &amp;nbsp;+订阅满足&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;&lt;strike&gt;3. 积分不满足&amp;nbsp; +&amp;nbsp; 亲密度满足&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+订阅不满足&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;&lt;strike&gt;4. 积分不满足&amp;nbsp; +&amp;nbsp; 亲密度满足&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+订阅满足&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;5. 积分满足&amp;nbsp; &amp;nbsp; &amp;nbsp; +&amp;nbsp; 亲密度不满足&amp;nbsp; &amp;nbsp;+订阅不满足&lt;/div&gt;&lt;div&gt;6. 积分满足&amp;nbsp; &amp;nbsp; &amp;nbsp; +&amp;nbsp; 亲密度不满足&amp;nbsp; &amp;nbsp;+订阅满足&lt;/div&gt;&lt;div&gt;7. 积分满足&amp;nbsp; &amp;nbsp; &amp;nbsp; +&amp;nbsp; 亲密度满足&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+订阅不满足&lt;/div&gt;&lt;div&gt;8. 积分满足&amp;nbsp; &amp;nbsp; &amp;nbsp; +&amp;nbsp; 亲密度满足&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+订阅不满足&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="615" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pywPBNRm6cSi4u4aqSp1-104" value="注：&lt;div&gt;登录送积分、注册送积分，所以新人一定会有积分(积分不满足情况不存在)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="773" width="420" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
